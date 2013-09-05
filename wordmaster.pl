@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-open(my $fh, '<', '/home/ijz/.irssi/scripts/words.txt') or die "$!\n";
+open(my $fh, '<', './words.txt') or die "$!\n";
 
 my $pattern = shift;
 
